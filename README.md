@@ -19,3 +19,23 @@ npm install @react-three/drei @react-three/fiber @react-three/postprocessing @ty
 - `gsap`: The GreenSock Animation Platform (GSAP) is a robust and performance-optimized animation library. It is often used in conjunction with Three.js to create fluid and dynamic animations, such as animating 3D objects, camera movements, and other visual transitions within your 3D scenes.
 
 - `three`: The core Three.js library, which provides the fundamental tools for creating and rendering 3D graphics in the browser. This library includes a wide range of features, such as geometries, materials, lights, cameras, and more, that form the backbone of any Three.js-based 3D application.
+
+## Directory Setup
+
+To organize your code effectively, follow these steps to create a dedicated directory for your Three.js components:
+
+### Create a `components directory`:
+    
+Inside the `src` directory of your project, create a new directory named `components`. This directory will house all the code related to 3D shapes and other Three.js components.
+    
+```bash
+mkdir components
+```
+
+### Add a `HollowCylindrical component`:
+
+Within the newly created components directory, create a file named `HollowCylindrical.tsx`. This file will contain the code for rendering a 3D hollow cylindrical shape using Three.js.
+
+```bash
+    touch HollowCylindrical.tsx
+```
