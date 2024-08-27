@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PROJECT SETUP
 
-## Getting Started
+## Installing Three.js Packages
 
-First, run the development server:
+To set up the necessary packages for Three.js in your project, run the following command in your terminal:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install @react-three/drei @react-three/fiber @react-three/postprocessing @types/three gsap three
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `@react-three/drei`: A collection of helpers, abstractions, and utilities specifically designed for React Three Fiber. It includes ready-made components like cameras, controls, geometries, and lights, making it easier to build complex 3D scenes without having to write boilerplate code.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `@react-three/fiber`: A React renderer for Three.js, enabling you to use Three.js in a declarative, component-based manner. It abstracts away the imperative API of Three.js and allows you to build and manage 3D scenes using React components, enhancing readability and maintainability.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `@react-three/postprocessing`: A React integration for the postprocessing library, which provides a wide array of post-processing effects like Bloom, Depth of Field, and SSAO. This package simplifies the application of visual effects to your Three.js scenes, allowing you to create more immersive and visually appealing experiences.
 
-## Learn More
+- `@types/three`: TypeScript type definitions for the Three.js library. These typings ensure that your TypeScript code can utilize the Three.js library with full type safety, improving development productivity and reducing the likelihood of runtime errors.
 
-To learn more about Next.js, take a look at the following resources:
+- `gsap`: The GreenSock Animation Platform (GSAP) is a robust and performance-optimized animation library. It is often used in conjunction with Three.js to create fluid and dynamic animations, such as animating 3D objects, camera movements, and other visual transitions within your 3D scenes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `three`: The core Three.js library, which provides the fundamental tools for creating and rendering 3D graphics in the browser. This library includes a wide range of features, such as geometries, materials, lights, cameras, and more, that form the backbone of any Three.js-based 3D application.
